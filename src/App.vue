@@ -144,13 +144,13 @@ export default {
       "header": {
         "planet": "Hercynia",
         "year": "5014u",
-        "system": "Ardennes-3",
-        "gate": "Atlas-Quanokrim",
+        "system": "Ardennes",
+        "gate": "Atlas-Elbrus",
         "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "headerTitle": "Union",
+        "headerSubtitle": "Naval Department",
+        "subheaderTitle": "UNAUX",
+        "subheaderSubtitle": "First Response Team",
       },
       "options":{
         "eventsMarkdownPerMission": true
