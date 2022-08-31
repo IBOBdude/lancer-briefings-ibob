@@ -4,12 +4,12 @@
     <section class="section-container" id="missions" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
-        <h1>Mission Log</h1>
+        <h1>Operations Log</h1>
       </div>
       <div class="section-content-container">
-        <h3>Current Assignment</h3>
+        <h3>Current Operation</h3>
         <Markdown :source="current_md" class="markdown" />
-        <h3>Mission List</h3>
+        <h3>Prior Operations</h3>
         <div class="mission-list-container">
           <Mission
             v-for="item in this.missions"
