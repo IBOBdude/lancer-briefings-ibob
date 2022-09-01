@@ -3,7 +3,7 @@
 
 **[Live Site](https://lancer-nrfw-briefing-ibob.netlify.app/)**
 
-Go over mission briefings within the LANCER Universe in style by showing your players a fully animated mission briefing screen, with a Mirrorsmoke Mercenary Company theme.
+A Union Naval Auxiliary themed briefing page.
 
 ## Credits
 
