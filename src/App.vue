@@ -4,12 +4,12 @@
     <section class="section-container" id="missions" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
-        <h1>Mission Log</h1>
+        <h1>Operations Log</h1>
       </div>
       <div class="section-content-container">
-        <h3>Current Assignment</h3>
+        <h3>Current Operation</h3>
         <Markdown :source="current_md" class="markdown" />
-        <h3>Mission List</h3>
+        <h3>Prior Operations</h3>
         <div class="mission-list-container">
           <Mission
             v-for="item in this.missions"
@@ -95,7 +95,7 @@ export default {
       "missions": [
         {
           "slug": "001",
-          "name": "Bug-Hunt",
+          "name": "HERCYNIAN SHIELD",
           "status": "start"
         },
       ],
@@ -144,13 +144,13 @@ export default {
       "header": {
         "planet": "Hercynia",
         "year": "5014u",
-        "system": "Ardennes-3",
-        "gate": "Atlas-Quanokrim",
+        "system": "Ardennes",
+        "gate": "Atlas-Elbrus",
         "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "headerTitle": "Union",
+        "headerSubtitle": "Naval Department",
+        "subheaderTitle": "UNAUX",
+        "subheaderSubtitle": "First Response Team",
       },
       "options":{
         "eventsMarkdownPerMission": true
